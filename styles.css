@@ -19,7 +19,7 @@ header{
     padding: 20px 10px;
     width: 100%;
     z-index: 1;
-    background-color: #2a4963;
+    background-color: #202327;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -120,8 +120,13 @@ header .navbar li a:hover{
 }
 
 .btn1:hover{
-letter-spacing: 4px;
+    letter-spacing: 4px;
 }
+
+.btn2:hover{
+    letter-spacing: 4px;
+}
+
 section{
     padding: 100px;
 }
@@ -212,96 +217,6 @@ section{
 
 .menu .contenu .box .text h3{
     font-weight: 400;
-}
-
-.expert{
-    margin-top:-100px;
-}
-
-.expert .contenu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.expert .contenu .box{
-    width: 250px;
-    margin: 15px;
-}
-.expert .contenu .box img{
-    position: relative;
-    width: 100%;
-    height: 300px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-}
-
-.expert .contenu .box h3{
-    color: #111;
-    font-weight: 400;
-    text-align: center;
-}
-
-.temoignage{
-    background-image: url(./images/bg2.jpg);
-    background-size: cover;
-}
-
-.temoignage .contenu{
-    display: flex;
-    margin-top: 40px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.temoignage .contenu .box{
-    width: 340px;
-    margin: 20px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 15px;
-    padding: 40px;
-}
-
-.temoignage .contenu .box .imbox{
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    position: relative;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-.temoignage .contenu .box .imbox img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top:0;
-    left: 0;
-    object-fit: cover;
-    justify-content: center;
-    align-items: center;
-}
-
-.temoignage .contenu .box .text{
-    text-align: center;
-    color: #666;
-    font-style: italic;
-}
-
-.temoignage .contenu .box .text h3{
-    color: #fb911f;
-    margin-top: 20px;
-    font-size: 1em;
-    font-weight: 600;
 }
 
 .blanc .titre-texte{
@@ -397,6 +312,205 @@ section{
     font-size: 2em;
 }
 
+.reservation{
+    background-image: url(images/img-form.jpg);
+    background-size:cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 0.8);
+    width: 100%;
+    background-position:unset;
+}
+
+.container .row{
+    margin-top: 20px;
+}
+
+.contenu .row .col-4{
+    border-block-end: #d87710;
+}
+
+.contenu .row #platcol{
+    margin-top: 20px;
+    border-inline-end:#000;
+
+}
+
+.container .row .col-4 .plat{
+    text-transform: uppercase
+    
+}
+
+.container .row .col .Qty{
+    text-transform: uppercase
+}
+.container .row .col .col-5{
+    margin-left: 100px;
+}
+
+.container .row .col-5 .Total{
+    text-transform: uppercase
+}
+
+
+
+.container .row .col-4 #platsfood{
+    width: 286px;
+    margin: 20px;
+    border: 8px solid #fff;
+    border-radius: 5px;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+}
+
+.container .row .col-4 #platsfood .price{
+    color: #fb911f;
+    background-color: #fff;
+    min-width: 10px;
+    min-height: 10px;
+}
+    
+
+.container .row .col-4 #platsfood .price .h4price{
+    float: right;
+    margin-top: -20px;
+}
+
+#img-plat{
+    height: 170px;
+    width: 270px;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.container .row .col #qtybtn{
+    margin-top: 90px;
+    min-width: 190px;
+    min-height: 50px;
+    margin-right: 350px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(245, 250, 255);
+    border-radius: 25px;
+    border: 6px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+
+}
+
+
+.container .row .col #qtybtn .btn-plus{
+    min-width: 40px;
+    max-height: 25px;
+    border: 5px;
+    border-radius: 10px;
+
+}
+
+.container .row .col #qtybtn .btn-plus:hover{
+    transition: 0.2s;
+    background-color: #fb911f;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.container .row .col #qtybtn .qty{
+    font-size: 20px;
+    font-style:unset;
+    font-weight:lighter;
+    color: #1c1a1a;
+    background:rgb(252, 252, 249);
+}
+
+.container .row .col #qtybtn .btn-moins{
+    min-width: 40px;
+    max-height: 25px;
+    border: 5px;
+    border-radius: 10px;
+
+}
+
+.container .row .col #qtybtn .btn-moins:hover{
+    transition: 0.2s;
+    background-color: #fb911f;
+    border: 5px;
+    border-radius: 10px
+}
+
+.container .row .col button{
+    font-size:medium;
+
+}
+.container .row .col button:hover{
+    color: #fff;
+}
+
+.container .row .col-5 .price .priceT{
+margin-top: 100px;
+}
+
+#hr{
+    border-style:inset;
+    size: 5px;
+}
+
+.container .row .col-3 .total1 .h4ttprice{
+    margin-left: 890px;
+
+}
+.container .row .col .col-5{
+    float: right;
+    
+}
+#priceT{
+    margin-top: 5px;
+    display: flex;
+    font-style: oblique;
+}
+
+#pricesT{
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.container .row .col-3 .total2 .ttprice{
+    margin-left: 980px;
+    margin-top: -20px;
+}
+
+.btntt{
+    font-size: 1em;
+    color: #000;
+    background: #fff;
+    border: 1px solid;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 450px;
+
+
+}
+
+.btntt:hover{
+    font-size: 1em;
+    color: #fff;
+    background: #fb911f;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 450px
+
+}
+
+
+
 header.sticky{
     background: #fff;
     padding: 10px 10px;
@@ -404,11 +518,11 @@ header.sticky{
 }
 
 header.sticky .logo{
-    color: #000;
+    color: #000000;
 }
 
 header.sticky .navbar li a {
-    color: #000;
+    color: #000000;
 }
 
 header.sticky li a:hover{
